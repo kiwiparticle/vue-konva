@@ -496,7 +496,7 @@ var CONTAINERS = {
       return isContainer ? function () {
         var _slots$default;
 
-        return Object(external_root_Vue_commonjs2_vue_commonjs_vue_amd_vue_["h"])('template', {}, (_slots$default = slots.default) === null || _slots$default === void 0 ? void 0 : _slots$default.call(slots));
+        return Object(external_root_Vue_commonjs2_vue_commonjs_vue_amd_vue_["h"])('v-container', {}, (_slots$default = slots.default) === null || _slots$default === void 0 ? void 0 : _slots$default.call(slots));
       } : function () {
         return null;
       };
